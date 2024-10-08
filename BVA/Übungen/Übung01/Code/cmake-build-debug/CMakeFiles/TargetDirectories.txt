@@ -1,0 +1,3 @@
+/Users/christophriedel/Programming/HSNR-Semester5/BVA/Übungen/Übung01/Code/cmake-build-debug/CMakeFiles/Code.dir
+/Users/christophriedel/Programming/HSNR-Semester5/BVA/Übungen/Übung01/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/christophriedel/Programming/HSNR-Semester5/BVA/Übungen/Übung01/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
