@@ -1,0 +1,27 @@
+1.1.
+
+Desktop:
+Pfad der DB Datei
+Signle User
+
+
+Kleine Projekte/Prototype 
+SOHO (small office/home office)
+weniger Komplex
+moderate last
+
+keine Authetifizierung
+
+C/S:
+DB-Name, Hostaddr, Port, Benutzer, PW
+psql -U dbs047 -h 194.94.121.224 -p 15434 dbs047
+Mutli User (Gruppen/rechte ...)
+
+koordinierten zugriff auf geteile daten
+
+Komplexe Installation/Wartung
+Scalierung 
+hohe last
+Unternehmes Anwendungen
+
+
