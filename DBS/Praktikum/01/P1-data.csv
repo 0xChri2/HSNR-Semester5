@@ -1,0 +1,101 @@
+BestellID;KundenID;Bestelldatum;Betrag;Status;Titel;Vorname;Name;PLZ;Ort
+B001;6;2024-06-24;423.95;Abgeschlossen;Dr.;Ulf;Pieper;41747;Viersen
+B002;7;2024-05-28;170.35;Abgeschlossen;;Karlheinz;Wirth;47051;Duisburg
+B003;24;2024-06-28;12.97;Abgeschlossen;Dr.;Gabriele;Dörschner;47051;Duisburg
+B004;22;2024-06-15;374.28;Storniert;;Karl-Ernst;Haase;47798;Krefeld
+B005;6;2024-03-03;206.67;Storniert;Dr.;Ulf;Pieper;41747;Viersen
+B006;21;2024-09-12;243.91;Abgeschlossen;;Reimund;Oderwald;41061;Mönchengladbach
+B007;22;2024-09-05;459.51;Storniert;;Karl-Ernst;Haase;47798;Krefeld
+B008;7;2024-05-02;462.6;Abgeschlossen;;Karlheinz;Wirth;47051;Duisburg
+B009;2;2024-02-14;45.62;Abgeschlossen;;Raymund;Möchlichen;40212;Düsseldorf
+B010;16;2024-03-30;390.41;Storniert;;Edwin;Wilmsen;41747;Viersen
+B011;6;2024-06-03;91.49;In Bearbeitung;Dr.;Ulf;Pieper;41747;Viersen
+B012;12;2024-05-23;226.89;In Bearbeitung;;Reza;Gröttner;41747;Viersen
+B013;15;2024-08-26;180.13;Storniert;;Heinz-Joachim;Liebelt;40212;Düsseldorf
+B014;4;2024-06-29;16.7;In Bearbeitung;;Damaris;Wesack;40212;Düsseldorf
+B015;12;2024-01-25;460.61;Abgeschlossen;;Reza;Gröttner;41747;Viersen
+B016;20;2024-02-24;468.58;In Bearbeitung;;Moritz;Mangold;40212;Düsseldorf
+B017;11;2024-02-23;476.69;Storniert;;Felix;Niemeier;47051;Duisburg
+B018;25;2024-05-04;253.34;In Bearbeitung;Prof. Dr.;Inka;Berger;47798;Krefeld
+B019;8;2024-02-22;490.43;In Bearbeitung;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B020;23;2024-05-03;88.37;Storniert;;Pius;Süßebier;47798;Krefeld
+B021;17;2024-06-19;117.41;Storniert;;Raymond;Roskoth;41747;Viersen
+B022;9;2024-07-01;279.87;Storniert;;Olga;Stiffel;41747;Viersen
+B023;8;2024-03-15;445.88;Abgeschlossen;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B024;23;2024-06-27;189.48;Storniert;;Pius;Süßebier;47798;Krefeld
+B025;15;2024-06-01;114.25;Storniert;;Heinz-Joachim;Liebelt;40212;Düsseldorf
+B026;12;2024-09-01;18.97;In Bearbeitung;;Reza;Gröttner;41747;Viersen
+B027;16;2024-06-25;490.04;In Bearbeitung;;Edwin;Wilmsen;41747;Viersen
+B028;16;2024-08-30;326.75;Storniert;;Edwin;Wilmsen;41747;Viersen
+B029;6;2024-06-28;50.16;Storniert;Dr.;Ulf;Pieper;41747;Viersen
+B030;15;2024-04-13;496.81;Abgeschlossen;;Heinz-Joachim;Liebelt;40212;Düsseldorf
+B031;18;2024-07-22;85.63;In Bearbeitung;;Margaretha;Grein Groth;47798;Krefeld
+B032;20;2024-09-08;112.61;Abgeschlossen;;Moritz;Mangold;40212;Düsseldorf
+B033;22;2024-02-05;338.88;Abgeschlossen;;Karl-Ernst;Haase;47798;Krefeld
+B034;14;2024-04-12;137.78;In Bearbeitung;;Julie;Schuster;41061;Mönchengladbach
+B035;16;2024-05-11;353.97;In Bearbeitung;;Edwin;Wilmsen;41747;Viersen
+B036;10;2024-05-16;33.21;In Bearbeitung;;Jose;Trubin;41747;Viersen
+B037;2;2024-04-04;96.6;Abgeschlossen;;Raymund;Möchlichen;40212;Düsseldorf
+B038;4;2024-06-18;96.93;Abgeschlossen;;Damaris;Wesack;40212;Düsseldorf
+B039;1;2024-03-30;354.8;Abgeschlossen;;Lucie;Klingelhöfer;47051;Duisburg
+B040;6;2024-03-13;298.74;In Bearbeitung;Dr.;Ulf;Pieper;41747;Viersen
+B041;24;2024-06-28;55.82;Abgeschlossen;Dr.;Gabriele;Dörschner;47051;Duisburg
+B042;19;2024-08-01;224.21;Abgeschlossen;;Fabian;Zänker;47798;Krefeld
+B043;14;2024-03-02;38.14;Storniert;;Julie;Schuster;41061;Mönchengladbach
+B044;4;2024-05-19;200.86;In Bearbeitung;;Damaris;Wesack;40212;Düsseldorf
+B045;6;2024-06-22;487.99;Abgeschlossen;Dr.;Ulf;Pieper;41747;Viersen
+B046;9;2024-07-28;156.56;In Bearbeitung;;Olga;Stiffel;41747;Viersen
+B047;13;2024-07-14;261.25;Storniert;;Irmhild;Karge;41747;Viersen
+B048;19;2024-03-07;149.52;In Bearbeitung;;Fabian;Zänker;47798;Krefeld
+B049;12;2024-02-11;429.68;Storniert;;Reza;Gröttner;41747;Viersen
+B050;19;2024-05-30;436.31;Abgeschlossen;;Fabian;Zänker;47798;Krefeld
+B051;10;2024-08-30;371.48;In Bearbeitung;;Jose;Trubin;41747;Viersen
+B052;5;2024-01-19;395.29;Storniert;;Ria;Bender;40212;Düsseldorf
+B053;10;2024-01-15;355.38;Storniert;;Jose;Trubin;41747;Viersen
+B054;11;2024-09-26;101.88;In Bearbeitung;;Felix;Niemeier;47051;Duisburg
+B055;8;2024-04-25;454.94;In Bearbeitung;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B056;20;2024-06-17;157.24;In Bearbeitung;;Moritz;Mangold;40212;Düsseldorf
+B057;13;2024-05-01;131.76;In Bearbeitung;;Irmhild;Karge;41747;Viersen
+B058;15;2024-02-13;77.32;Storniert;;Heinz-Joachim;Liebelt;40212;Düsseldorf
+B059;14;2024-02-21;435.78;Abgeschlossen;;Julie;Schuster;41061;Mönchengladbach
+B060;21;2024-05-30;450.98;In Bearbeitung;;Reimund;Oderwald;41061;Mönchengladbach
+B061;8;2024-05-01;99.49;Abgeschlossen;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B062;11;2024-01-17;37.66;Storniert;;Felix;Niemeier;47051;Duisburg
+B063;19;2024-02-18;258.59;Storniert;;Fabian;Zänker;47798;Krefeld
+B064;16;2024-02-05;495.69;Storniert;;Edwin;Wilmsen;41747;Viersen
+B065;11;2024-02-05;362.94;In Bearbeitung;;Felix;Niemeier;47051;Duisburg
+B066;4;2024-02-08;371.77;In Bearbeitung;;Damaris;Wesack;40212;Düsseldorf
+B067;5;2024-06-06;497.76;In Bearbeitung;;Ria;Bender;40212;Düsseldorf
+B068;12;2024-08-05;418.66;Storniert;;Reza;Gröttner;41747;Viersen
+B069;7;2024-02-26;25.47;Storniert;;Karlheinz;Wirth;47051;Duisburg
+B070;10;2024-06-14;413.5;In Bearbeitung;;Jose;Trubin;41747;Viersen
+B071;17;2024-04-14;121.71;Storniert;;Raymond;Roskoth;41747;Viersen
+B072;2;2024-07-21;197.76;In Bearbeitung;;Raymund;Möchlichen;40212;Düsseldorf
+B073;10;2024-06-25;403.23;Abgeschlossen;;Jose;Trubin;41747;Viersen
+B074;1;2024-09-02;284.08;Storniert;;Lucie;Klingelhöfer;47051;Duisburg
+B075;3;2024-05-06;169.64;In Bearbeitung;;Ahmet;Schaaf;41747;Viersen
+B076;4;2024-08-30;106.45;Abgeschlossen;;Damaris;Wesack;40212;Düsseldorf
+B077;6;2024-06-12;90.53;Storniert;Dr.;Ulf;Pieper;41747;Viersen
+B078;12;2024-03-20;424.13;In Bearbeitung;;Reza;Gröttner;41747;Viersen
+B079;14;2024-01-10;405.34;Storniert;;Julie;Schuster;41061;Mönchengladbach
+B080;18;2024-05-05;293.92;Storniert;;Margaretha;Grein Groth;47798;Krefeld
+B081;18;2024-05-29;371.52;Storniert;;Margaretha;Grein Groth;47798;Krefeld
+B082;8;2024-05-25;436.79;In Bearbeitung;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B083;11;2024-08-04;83.69;Abgeschlossen;;Felix;Niemeier;47051;Duisburg
+B084;20;2024-02-06;366.15;Abgeschlossen;;Moritz;Mangold;40212;Düsseldorf
+B085;6;2024-04-21;121.18;Abgeschlossen;Dr.;Ulf;Pieper;41747;Viersen
+B086;15;2024-01-27;483.94;In Bearbeitung;;Heinz-Joachim;Liebelt;40212;Düsseldorf
+B087;3;2024-06-23;475.86;Storniert;;Ahmet;Schaaf;41747;Viersen
+B088;11;2024-07-27;117.15;Abgeschlossen;;Felix;Niemeier;47051;Duisburg
+B089;6;2024-09-06;434.49;Storniert;Dr.;Ulf;Pieper;41747;Viersen
+B090;8;2024-04-22;40.49;In Bearbeitung;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B091;23;2024-09-23;344.25;Storniert;;Pius;Süßebier;47798;Krefeld
+B092;16;2024-02-17;111.92;In Bearbeitung;;Edwin;Wilmsen;41747;Viersen
+B093;21;2024-07-28;251.82;In Bearbeitung;;Reimund;Oderwald;41061;Mönchengladbach
+B094;24;2024-01-01;171.04;In Bearbeitung;Dr.;Gabriele;Dörschner;47051;Duisburg
+B095;8;2024-05-26;359.19;In Bearbeitung;Prof. Dr.;Steffi;Hölzenbecher;40212;Düsseldorf
+B096;5;2024-03-30;351.78;Abgeschlossen;;Ria;Bender;40212;Düsseldorf
+B097;21;2024-03-24;331.3;Storniert;;Reimund;Oderwald;41061;Mönchengladbach
+B098;14;2024-09-09;58.71;Abgeschlossen;;Julie;Schuster;41061;Mönchengladbach
+B099;18;2024-04-12;259.94;Abgeschlossen;;Margaretha;Grein Groth;47798;Krefeld
+B100;11;2024-03-22;387.45;In Bearbeitung;;Felix;Niemeier;47051;Duisburg
