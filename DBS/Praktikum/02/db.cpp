@@ -5,20 +5,18 @@
 
 using namespace std;
 
-// Global database connection object
+// Global database connection
 PGconn *conn = nullptr;
 
 // Database login
 int db_login(const string &user, const string &password, const string &host, 
              const string &port, const string &dbname) {
-    // Construct connection string
     string connstr = "user=" + user + 
                      " password=" + password + 
                      " host=" + host + 
                      " port=" + port + 
                      " dbname=" + dbname;
 
-    // Establish connection
     conn = PQconnectdb(connstr.c_str());
     
     // Check connection status
@@ -28,7 +26,6 @@ int db_login(const string &user, const string &password, const string &host,
         conn = nullptr;
         return -1;
     }
-    
     return 0;
 }
 
@@ -85,7 +82,7 @@ int db_rollback() {
     return 0;
 }
 
-// Create hersteller table
+// Create "hersteller" table
 int db_create_table_hersteller() {
     if (!conn) return -1;
     
@@ -106,7 +103,7 @@ int db_create_table_hersteller() {
     return 0;
 }
 
-// Create produkt table
+// Create "produkt" table
 int db_create_table_produkt() {
     if (!conn) return -1;
     
@@ -145,7 +142,7 @@ int db_drop_table(const string &tablename) {
     return 0;
 }
 
-// Check if manufacturer exists
+// Check if "hersteller" exists
 int db_check_hnr(const string &hnr) {
     if (!conn) return -1;
     
@@ -166,7 +163,7 @@ int db_check_hnr(const string &hnr) {
     return count > 0 ? 1 : 0;
 }
 
-// Check if product exists
+// Check if "produkt" exists
 int db_check_pnr(const string &pnr) {
     if (!conn) return -1;
     
@@ -206,7 +203,7 @@ int db_count(const string &tablename) {
     return count;
 }
 
-// Insert product
+// Insert produkt
 int db_insert_produkt(const string &pnr, const string &name, const string &preis, const string &hnr) {
     if (!conn) return -1;
     
@@ -225,7 +222,7 @@ int db_insert_produkt(const string &pnr, const string &name, const string &preis
     return 0;
 }
 
-// Insert manufacturer
+// Insert hersteller
 int db_insert_hersteller(const string &hnr, const string &name, const string &stadt) {
     if (!conn) return -1;
     
@@ -244,7 +241,7 @@ int db_insert_hersteller(const string &hnr, const string &name, const string &st
     return 0;
 }
 
-// Update product
+// Update produkt
 int db_update_produkt(const string &pnr, const string &name, const string &preis, const string &hnr) {
     if (!conn) return -1;
     
@@ -263,7 +260,7 @@ int db_update_produkt(const string &pnr, const string &name, const string &preis
     return 0;
 }
 
-// Update manufacturer
+// Update hersteller
 int db_update_hersteller(const string &hnr, const string &name, const string &stadt) {
     if (!conn) return -1;
     
@@ -282,7 +279,7 @@ int db_update_hersteller(const string &hnr, const string &name, const string &st
     return 0;
 }
 
-// Delete product
+// Delete produkt
 int db_delete_produkt(const string &pnr) {
     if (!conn) return -1;
     
@@ -301,7 +298,7 @@ int db_delete_produkt(const string &pnr) {
     return 0;
 }
 
-// Delete manufacturer (and dependent products)
+// Delete hersteller (und abhängige Produkte)
 int db_delete_hersteller(const string &hnr) {
     if (!conn) return -1;
     

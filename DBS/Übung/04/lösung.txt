@@ -1,0 +1,66 @@
+4.1
+a)
+Select name 
+FROM person 
+Grouby Name having COUNT(name) > 1;
+
+SELF JOIN
+SELECT DISTINCT p1.name FROM person p1, person p2
+Where p1.name = p2.name AND p1.nr != p2.nr;
+
+
+
+b)
+A u B = UNION
+A n B = INTERSECT
+A \ B = EXCEPT
+
+Select DISTINCT *
+FROM (
+(SELECT name FROM person)
+EXCEPT ALL
+(SELECT DISTINCT name FROM person)) tmp;
+
+(Select name FROM person)
+EXCEPT ALL
+(SELECT name FROM person)
+INTERSECT
+(SELECT DISTINCT name FROM person);
+
+c)
+DELETE FROM person
+WHERE nr NOT IN (
+    SELECT min(nr)
+    FROM person
+    Groub by name
+);
+
+ELETE FROM person
+WHERE nr NOT IN (
+    SELECT min(nr)
+    FROM person
+    Groub by name, geburt
+);
+
+
+CREATE VIEW billigfilm AS 
+Select film.* , filmstar.pnr
+FROM film JOIN filmstar ON filmstar.fnr = film.fnr
+Where kosten < 100000;
+
+SELECT * FROM person
+WHERE (SELECT count(*) FROM film WHERE regie = person.pnr) > 0;
+
+SELECT * FROM person
+WHERE (person pnr IN (SELECT Regie from film));
+
+CREAT view AS Superstar AS
+SELECT person.*, filmstar.gage
+FROM person join filmstar ON person.pnr = filmstar.pnr 
+WHERE gage > 500000 and gage (SELECT max(gage) FROM FILmstar f2 WHERE filmstar.pnr = f2.pnr;);
+
+
+SELECT * From Superstar
+Where superstar.pnr IN ( 
+    Select pnr FROM billigfilm
+);
