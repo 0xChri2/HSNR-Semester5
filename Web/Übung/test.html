@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('fonts/custom-font.woff2') format('woff2');
+        }      
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(18, 189, 189);
+            min-width: 300px;
+            min-height: 200px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .test {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #007bff;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    </style>
     </head>
     <body>
-        <h1>Test</h1>
-        <button>Click me</button>
+
+        <div class="container">
+            <h1 class="test">Test</h1>
+            <input id="inputid"/>
+            <button id="Button2">Click me</button>
+            <ul id="todo-list"></ul>
+        </div>
     </body>
     <script>
+        const button = document.getElementById('Button2');
+        const ul = document.getElementById('todo-list');
+        const input = document.getElementById('inputid');
+        
+        button.addEventListener('click', () => {  
+            const li = document.createElement('li');
+            li.textContent = input.value;
+            
+            const deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Löschen';
+            deleteButton.addEventListener('click', () => {
+                li.remove();
+            });
+            
+            li.appendChild(deleteButton);
+            ul.appendChild(li);
+            input.value = '';
+        });
     </script>
-
 </html>
