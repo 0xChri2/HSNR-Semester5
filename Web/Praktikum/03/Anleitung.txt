@@ -2,8 +2,13 @@ docker-compose up -d
 
 docker exec -it <wordpress_container_name> bash
 
-curl -o civicrm.zip https://download.civicrm.org/civicrm-stable-wordpress.zip
-
 apt update
 
 apt install unzip -y
+
+civicrm.sh
+
+
+Download cv
+
+curl -LsS https://download.civicrm.org/cv/cv.phar -o /usr/local/bin/cv && chmod +x /usr/local/bin/cv
