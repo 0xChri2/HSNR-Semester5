@@ -12,3 +12,5 @@ civicrm.sh
 Download cv
 
 curl -LsS https://download.civicrm.org/cv/cv.phar -o /usr/local/bin/cv && chmod +x /usr/local/bin/cv
+
+
