@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zentrierter Inhalt</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Elemente in einer Spalte anordnen */
+            justify-content: center; /* Vertikale Zentrierung */
+            align-items: center; /* Horizontale Zentrierung */
+            height: 100vh; /* Höhe des Bildschirms */
+            margin: 0; /* Entfernt Standardabstand */
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 0; /* Entfernt zusätzlichen Abstand */
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+            margin: 0 0 10px 0; /* Abstand unten vor dem h1 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Test 3</h1>
+    <p id="test">Dies ist ein Test.</p>
+    <button>Test</button>
+
+    <script>
+        document.getElementsByTagName('button')[0].addEventListener('click', function() {
+            document.getElementById('test').innerHTML = 'Hallo Welt';
+        });
+    </script>
+</body>
+</html>
