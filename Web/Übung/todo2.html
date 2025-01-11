@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Todo-Liste</title>
+    <style>
+       body{
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh; /* Volle Höhe des Viewports */
+        margin: 0; /* Entferne den Standard-Abstand des Browsers */
+       }
+       .conatiner{
+        width: 400px;
+        border: 2px solid #b3b3b3; /* Dunkler Rahmen */
+        border-radius: 15px; /* Abgerundete Ecken */
+        padding: 20px; /* Innerer Abstand */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Schatten für einen modernen Look */
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+    </style>
+
+</head>
+<body>
+    <div class="conatiner">
+    <h1>Todo-Liste</h1>
+        <input type="text" name="todo" id="todo" placeholder="Neues Todo" required>
+        <button type="submit">Hinzufügen</button>
+        <table>
+
+        </table>
+    </div>
+    <script>
+        var input = document.getElementById("todo");
+        var button = document.getElementsByTagName("button")[0];
+        
+        button.addEventListener("click", function(){
+            var todo = input.value;
+            var table = document.getElementsByTagName("table")[0];
+            var row = table.insertRow(0);
+            var cell = row.insertCell(0);
+            button = document.createElement("button");
+            button.innerHTML = "Löschen";
+            button.addEventListener("click", function(){
+                table.deleteRow(this.parentNode.parentNode.rowIndex);
+            });
+            cell.innerHTML = todo;
+            cell.appendChild(button);
+        });
+    </script>
+
+</body>
+</html>
