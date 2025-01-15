@@ -80,3 +80,5 @@ CREATE TRIGGER trg_hersteller_delete
 BEFORE DELETE ON hersteller
 FOR EACH ROW
 EXECUTE FUNCTION trg_delete_cascade();
+
+

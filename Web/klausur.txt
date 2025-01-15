@@ -1,0 +1,220 @@
+Klausur:
+
+Praktikum 1 lastenheft 
+
+Praktiku 2 auch begriffe erklären
+
+html was gibt das aus
+
+oder html schreiben und das muss rauskommen,
+
+Html sturkur 
+
+
+client und server verbindung beschreiben wie läuft das
+skizze machen client und server
+
+
+
+wo kommst js her und css 
+
+Css machen können, 
+Was macht css js und html beschreiben
+
+
+
+
+lastenheft
+
+Plichenheft
+
+
+das internet zeiten (evt ???) findet er geil aber sagt ist nicht relevant sus as hell
+folie 5
+
+Web 1.0, Web 3 und tante.cc fragen 
+
+Beschreibt techniken und sollen beschrieben werden mit paar sätzen
+
+
+html was das und Ted nelson
+
+Wie aufbau von Hardware technik wie wie die verbindung passiert.
+
+
+tls wie funktioniert das
+
+html standards versionen wie alt
+
+fehler toleranz von browser gegensatz von fehler
+
+welcher fehler und wie reagiert der browser
+Warum muss man fehlertolarant sein 
+
+
+umfang vom brwoser 
+komplett linux oder browser
+
+aufbau von browser wie funktioniert der 
+
+Tali Garsiel how browsers work 
+folie 12 v3 
+
+
+
+was ist element und was ist attribut 
+element vs attrivut 
+
+
+
+was ist block und inline und inline block
+
+wie funktionieren tabellen übung mit js bauen welche arten es gibt
+
+formulare eventuell er ist isch nicht sicher
+
+event handler in html wie funktionert das wie integrieren
+Arrow funtkion ? 
+
+was für ein typ hat die variable 
+
+hosting ???????? hat er eigentlich gesagt
+
+keine geschwindikeit berechnung von webseiten aufruf 
+
+
+script wie einbinde und wie sicher vor und nachteile
+Was ist besser selber hosten oder nicht 
+
+Fester größe festellen und wie man das macht welche funktionert gibt es
+
+browserleaks.com 
+
+innerhtml versus textcontent
+was ist das genau 
+
+attribute von elemente ändern 
+
+suchen sie etwas auf der seite und machen was mit auch css 
+wie finden und wie ändern
+
+
+type of daten
+
+daten typ aufgaben
+welche datentyp kommt rauskommen
+jsisweird nur in einfach
+
+arrays und objekte kennen 
+
+wie erzeugen und so welche operatorne und kontroll dinger gibt es wie ===
+
+
+evebt hendler mit this
+
+Eventlistener kennen oder mal gehört haben
+
+Was ist DOM was kann man damit mchen wurzel und wie die dinger heissen 
+begriffe auswendig
+
+DOM beispiele suche und sollen
+
+ajax save call valla habibi
+anschauen was passiert da und wie funktionert das 
+
+ajax backend 
+anschauen wie das geht 
+
+bei request typen kennen auflisten z.b 
+
+http status was heisen die codes oder gruppert 
+wichtigten kenne 
+
+was passiiet dghub.de was passiert was macht der browser 
+
+http abkuprzungen erkennen und auflisten
+
+http anfrage mothoden 
+was gibt es was macht es
+
+http stuts code 
+
+http URI wie sieht das aus 
+
+stylesheet 
+was für selektoren gibt es beispiele was macht das
+
+background-color schreibeweise warum und warum in js anders ?? 
+
+wie sieht stylesheet aus 
+beispiele nenen und erklären
+
+was sind selektroen alle  4 typen 
+
+mehrer ids was wird genommen
+
+keine viisble, inithal maybe 
+
+
+operatornen kennen css
+
+pseudo operatorne 
+
+css funktioneren nö
+
+spezifität könnte vorkommen
+
+
+Box model kennen was was ist wo das hin gehlrt
+
+border box und contetn box unterschied
+
+fonts wie verwedet wie ändern google fonts wie kann man einbidnen 
+
+fonts rechte nö
+
+Woff2 was das 
+
+Was ist RWD Repsponiv web design 
+was ist das wofür steht was
+was brauch ich dafür z.b html css (kein js)
+mediaquerie 
+
+Media queriees kenen und was passiert
+mediafeatures abfragen können
+
+media queriees bepsiele anschauen
+
+flex und grid anschauen 
+was ist das wofür funktionert das und was ist für welchen zweck da
+
+absicherung von clients und server 
+http vs https
+extension und plugins
+
+wie funktioniert tls handshake 
+ablauf erklären
+keine konfigurtion wissen
+
+wie komm ich an eine zertifikat 
+wie war es früher, wie bewesien das einem die domain gehört
+
+wie läuft das mit Lets Enkrypt valdiation 
+die verfahren und wie es früher lief
+Daomain Valdiation 1 und 2 beschrieben können 
+
+cms und hugo 
+
+unterscheid hugo wordpress 
+wie funktionieren die was machen die
+inhalt
+
+Proxy eklären alles foward und reverseproxy 
+erklären kennen und so 
+bildchen malen auf süß
+
+fragen zu css in letzter übung 20 fragen maybe 
+
+
+
+
