@@ -6,3 +6,27 @@ table {
     background-color: red;
     border: 1px solid aqua;
 }
+
+[href^="http"] {
+    color: green;
+}
+
+section > div {
+
+}
+
+input:empty {
+
+}
+
+ul li:nth-child(even){
+    background-color: blue;
+}
+
+div:last-child{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}

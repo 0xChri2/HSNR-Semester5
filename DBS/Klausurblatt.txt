@@ -1,0 +1,10 @@
+Normalformen aufschrieben alle
+Funktionale abhängigkeit defintion
+inferenzregeln von armstrong
+k gradige Relationships 
+Trigger syntax oder bespiel 
+sql abfragen so paar schwerere 
+Beispiel er diagramm mit weak zeug usw 
+Begriff defintionen 
+2 Phase Sperr Protokoll
+konfliktserialisierbar Scheduler

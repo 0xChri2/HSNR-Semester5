@@ -1,0 +1,44 @@
+delete from kopiervorgang where Datum = to_date("01.01.2021", "DD.MM.YYYY") and CID in (Select )
+
+update from kopiervorgang where Datum = Null 
+Set Datum = to_date('01.01.2020', "DD.MM.YYYY");
+
+Select KID from kopiervorgang Join Kopierer on kopierer.CID = kopiervorgang.CID Where Datum = to_date('15.01.2021', 'DD.MM.YYYY') and kopierer.Hersteller = 'Conan';  
+
+
+
+
+Insert into kopiervorgang (KID, CID, Datum, Anzahl)
+Values (4711, 14, to_date('09.02.2021', 'DD.MM.YYYY'), 100);
+
+Delete from kopiervorgang Where Datum = to_date('01.01.2021','DD.MM.YYYY') And CID in (Select CID From Kopierer where Hersteller = 'Xorex');
+
+Update from kopiervorgang Set datum = to_date('01.01.2020','DD.MM.YYYY')  Where Datum = Null;
+
+Select KID from kopiervorgang where Datum = to_date('15.01.2021','DD.MM.YYYY') and CID in (Select CID from Kopierer where Hersteller = 'Conan');
+
+Select * from kopierer Where Kaufdatum = (Select Max(Kaufdatum) from kopierer);
+
+Select kopiervorgang.KID, Kname from kopiervorgang join kunde On kunde.kid = kopiervorgang.kid where cid = (Select cid from kopierer Where Hersteller = 'Conan');
+
+const func = (x,y) => x * y
+
+
+
+Create table Sammlung {
+    MNR interger References Mitglied.MNR ON DELETE CASCADE,
+    BNr integer References Briefmake.BNR ON DELETE CASCADE, 
+    Anzahl integer NOT NULL Check(Anzahl >= 0)
+    Primary KEY (MNR, BNR)
+};
+
+
+Insert INTO Sammlung 
+Values ('4711', '1234', '1');
+
+Delete FROM Briefmarke Where Erscheinungs IS NULL; 
+
+Update from Sammlung Set Anzahl = Anzhal + 1 Where MNr in (Select MNR from Mitglied )
+
+Select Disitinct MNR Nachname, vorname from Mitgleid join Sammlung on Mitglied.BNR = Sammlung.mNR Where mNR in (Select BNR From Briegmarke where wert > 1000)
+

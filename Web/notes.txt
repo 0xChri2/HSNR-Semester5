@@ -1,1 +1,4 @@
 Wisse von Kleinigkeiten von Zeiten und so Vortrag 2
+
+
+Spezifität nachschauen udn borderbox und content box

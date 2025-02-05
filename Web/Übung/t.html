@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <script>
+
+        function test2 (){
+            this.style.backgroundColor = "red";
+        }
+        window.onload = function() {
+            var table = document.createElement("table");
+            for (var i = 0; i <= 2; i++){
+                var row = document.createElement("tr");
+                for(var j = 0; j <= 2; j++){
+                    var cell = document.createElement("td");
+                    cell.innerHTML = i + " " + j;
+                    cell.addEventListener("click", test2);
+                    row.appendChild(cell);
+                    
+                }
+                table.appendChild(row);
+            }
+            document.body.appendChild(table);
+            document.getElementById("image").setAttribute("src", "nix.jpg");
+        };
+    </script>
+</head>
+<body>
+    <button id="2">JS stinkt</button>
+    <img id="image" src="mama.jpg">
+</body>
+</html>
