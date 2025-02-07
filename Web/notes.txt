@@ -2,3 +2,25 @@ Wisse von Kleinigkeiten von Zeiten und so Vortrag 2
 
 
 Spezifität nachschauen udn borderbox und content box
+
+function tabelle(tabelle){
+    for(let row of tabelle.rows){
+        for( let cell of rows.cells){
+            if(cell.textContent.trim() === ""){
+            cell.style.backgroundColor("Yellow");
+            }
+        }
+    }
+}
+
+
+fetch("Data.txt").then(response => response.text()).then(data => {
+    document.getElementById("Deine Mudda").textcontent = data
+});
+
+div > p 
+div p
+
+document.getElementById("Dein arschloch").img = ""
+document.getElementById("Dein arschloch").setAttribut("src", "googl.c0k"); 
+99% = nicht sicher 
