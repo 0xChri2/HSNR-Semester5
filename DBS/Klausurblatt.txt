@@ -8,3 +8,4 @@ Beispiel er diagramm mit weak zeug usw
 Begriff defintionen 
 2 Phase Sperr Protokoll
 konfliktserialisierbar Scheduler
+prätzendenzgraph

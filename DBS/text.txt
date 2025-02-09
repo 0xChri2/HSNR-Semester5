@@ -42,3 +42,44 @@ Update from Sammlung Set Anzahl = Anzhal + 1 Where MNr in (Select MNR from Mitgl
 
 Select Disitinct MNR Nachname, vorname from Mitgleid join Sammlung on Mitglied.BNR = Sammlung.mNR Where mNR in (Select BNR From Briegmarke where wert > 1000)
 
+
+
+Select cout(*), name from person
+Group By name
+Having Count(*) > 1;
+
+Delete from person p1 
+Where id IN (
+    Select MIN(id) from person
+    Group By name
+    Having count(name) > 1;
+);
+
+Delete from person 
+where id not in (
+    Select Disitinct name, id from person; 
+);
+
+
+Create View Regisseur AS 
+SELECT pnr, name, geschlecht
+FROM person where pnr in (selecte regie from film);
+
+Create View Superstar AS
+Select pnr, name, geschlecht, MAX(gage)
+
+Select * from Billigfilm;
+
+
+Create or replace funktion ondeletenoac()
+$$
+Begin 
+
+if TG_OP = 'Update' OR TG_OP = 'Delete'and EXISTS(Selecte 1 from produkt.hnr = old.hnr) THEN
+    raise notice 'Ne';
+END IF 
+
+Retrun Old;
+$$ language plpgsql;
+
+CREATE TRIGGER tr
